@@ -1,0 +1,28 @@
+First off, thank you for purchasing this product.
+
+While it is possible to set this up manually, for convenience the script will automatically
+retrieve all the nessacery prefabs and files needed to run properly.
+
+To add this to your project, simply create an Empty GameObject, and drag the Spawner script
+from the library located in the scripts folder.
+
+Included is a Demo scene, which shows you the simplistic layout of the system.
+
+Current Feature Set:
+1) Visualize the bounds of your universe.
+
+2) Complete random generation of starfields and nebulas.
+
+3) Use your own textures for the nebula and starfield.
+
+4) Support for random textures using Texture Animation Sheet in the nebula.
+
+Note: To make use of the random textures in the nebula, change the texture on the
+material, then on the prefab, scroll down on the particle system till you see the
+Texture Animation Sheet section, then change the Y value to the ammount of textures
+you have in your sheet. The default is set to 8.
+
+Please note: 
+
+Due to floating point limitations, the maximum size for the system is locked to
+up to 100 000. Which needs to be multiplied by 2 then cubed to get your actual world size.
